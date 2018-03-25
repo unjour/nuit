@@ -14,7 +14,7 @@ letter-spacing:1px !important;
 font-family: 'Yu Gothic','MSP ゴシック' !important;
 color: #000000 !important;
 text-align: left;
-padding: 22px 0;
+padding:0 !important;
 line-height:30px !important;
 letter-spacing:2px !important;
 }
