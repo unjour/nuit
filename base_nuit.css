@@ -20,15 +20,32 @@ top: 15px!important;
 z-index: 99!important;
 }
 
+#clearfix ul{
+      display: table;
+  border:none !important;
+     -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+
+.clearfix ul{
+      display: table;
+  border:none !important;
+}
+
 #baseMenu ul {
     display: table;
   border:none !important;
+  
 }
 
 ul, ol {
     margin: 0　!important;
     padding: 0　!important;
 }
+
+
 
 .container #header {
     width: 100% !important;
