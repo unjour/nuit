@@ -23,19 +23,19 @@ z-index: 99!important;
 #clearfix ul{
       display: table;
   border:none !important;
-     -ms-transform: translateY(10px) !important;;
-    -webkit-transform: translateY(10px) !important;;
-    transform: translateY(10px) !important;;/*下に動く*/
-    border-bottom: none !important;;/*線を消す*/
+     -ms-transform: translateY(10px) !important;
+    -webkit-transform: translateY(10px) !important;
+    transform: translateY(10px) !important;/*下に動く*/
+    border-bottom: none !important;/*線を消す*/
 }
 
 .clearfix ul{
       display: table;
   border:none !important;
-       -ms-transform: translateY(10px) !important;;
-    -webkit-transform: translateY(10px) !important;;
-    transform: translateY(10px) !important;;/*下に動く*/
-    border-bottom: none !important;;/*線を消す*/
+       -ms-transform: translateY(10px) !important;
+    -webkit-transform: translateY(10px) !important;
+    transform: translateY(10px) !important;/*下に動く*/
+    border-bottom: none !important;/*線を消す*/
 }
 
 #baseMenu ul {
