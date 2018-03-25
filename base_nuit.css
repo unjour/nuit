@@ -23,7 +23,7 @@ font-family: 'Yu Gothic','MSP ゴシック' !important;
 }
 
 .container #header {
-    width: 960px !important;
+    width: 100% !important;
     height: 17px !important;
     margin: 0 auto !important;
     padding: 31.5px 0 !important;
