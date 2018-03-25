@@ -20,12 +20,14 @@ top: 15px!important;
 z-index: 99!important;
 }
 
-.clearfix {
-border:none !important;
+#baseMenu ul {
+    display: table;
+  border:none !important;
 }
 
-#clearfix {
-border:none !important;
+ul, ol {
+    margin: 0　!important;
+    padding: 0　!important;
 }
 
 .container #header {
