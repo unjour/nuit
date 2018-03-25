@@ -20,6 +20,10 @@ top: 15px!important;
 z-index: 99!important;
 }
 
+.clearfix {
+border:none !important;
+}
+
 .container #header {
     width: 100% !important;
     height: 17px !important;
