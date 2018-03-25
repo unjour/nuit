@@ -6,6 +6,20 @@
 /* Basic Style
 --------------------------------------------------------- */
 
+#mainHeaderNavColor{
+    text-align: center !important;
+  font-size:15px !important;
+letter-spacing:1px !important;
+font-family: 'Yu Gothic','MSP ゴシック' !important;
+}
+
+.mainHeaderNavColor{
+    text-align: center !important;
+  font-size:15px !important;
+letter-spacing:1px !important;
+font-family: 'Yu Gothic','MSP ゴシック' !important;
+}
+
 #baseMenu {
     box-sizing: border-box !important;
     border: none !important; 
