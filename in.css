@@ -24,12 +24,13 @@ width: 645px;
 height: auto;
 background: #FFFFFF !important;
 line-height:30px !important;
-letter-spacing:1px !important;
+letter-spacing:2px !important;
 }
 
 html {
 font-family: 'Yu Gothic','MSP ゴシック';
 font-size:15px;
+line-height:30px !important;
 letter-spacing:2px !important;
 }
 body {
