@@ -24,6 +24,10 @@ z-index: 99!important;
 border:none !important;
 }
 
+#clearfix {
+border:none !important;
+}
+
 .container #header {
     width: 100% !important;
     height: 17px !important;
