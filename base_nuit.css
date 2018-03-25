@@ -6,20 +6,11 @@
 /* Basic Style
 --------------------------------------------------------- */
 
-#mainHeaderNavColor{
-    text-align: center !important;
-  font-size:15px !important;
-letter-spacing:1px !important;
-font-family: 'Yu Gothic','MSP ゴシック' !important;
-  border-bottom:dotted 1px #000000 !important;
-}
-
 .mainHeaderNavColor{
     text-align: center !important;
   font-size:15px !important;
 letter-spacing:1px !important;
 font-family: 'Yu Gothic','MSP ゴシック' !important;
-  border-bottom:dotted 1px #000000 !important;
 }
 
 #baseMenu {
@@ -37,6 +28,7 @@ font-family: 'Yu Gothic','MSP ゴシック' !important;
     margin: 0 auto !important;
     padding: 31.5px 0 !important;
     text-align: center !important;
+    border-bottom:dotted 1px #000000 !important;
 }
 
 .container {
