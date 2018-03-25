@@ -7,12 +7,28 @@
 --------------------------------------------------------- */
 
 #baseMenu {
-    box-sizing: border-box;
+    box-sizing: border-box !important;
     border: none !important; 
-    right: 25px;
-    position: fixed;
-    top: 5px;
-    z-index: 2002;
+    right: 25px !important;
+    position: fixed !important;
+    top: 5px !important;
+    z-index: 2002 !important;
+}
+
+.container #header {
+    width: 960px !important;
+    height: 17px !important;
+    margin: 0 auto !important;
+    padding: 31.5px 0 !important;
+    text-align: center !important;
+}
+
+.container {
+    text-align: center !important;
+  font-size:15px !important;
+letter-spacing:1px !important;
+font-family: 'Yu Gothic','MSP ゴシック' !important;
+color: #000000 !important;
 }
 
 .main #about {
