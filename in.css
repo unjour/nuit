@@ -15,29 +15,30 @@ font-family: 'Yu Gothic','MSP ゴシック' !important;
 color: #000000 !important;
 text-align: left;
 padding: 22px 0;
-line-height:25px !important;
+line-height:30px !important;
+letter-spacing:2px !important;
 }
 
 .main {
 width: 645px;
 height: auto;
 background: #FFFFFF !important;
-line-height:25px !important;
+line-height:30px !important;
 letter-spacing:1px !important;
 }
 
 html {
 font-family: 'Yu Gothic','MSP ゴシック';
 font-size:15px;
-letter-spacing:1px;
+letter-spacing:2px !important;
 }
 body {
 margin: 0;
 font-family: 'Yu Gothic','MSP ゴシック';
 font-size:15px;
 color:#000000;
-line-height:25px !important;
-letter-spacing:1px !important;
+line-height:30px !important;
+letter-spacing:2px !important;
 }
 
 a:link {color:#000000; text-decoration: none; !important;} 
