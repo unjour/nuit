@@ -1,3 +1,6 @@
+
+
+
 @charset "utf-8";
 /*
   common.css
@@ -6,48 +9,105 @@
 /* Basic Style
 --------------------------------------------------------- */
 
-.mainHeaderNavColor{
-    text-align: center !important;
-  font-size:15px !important;
-letter-spacing:1px !important;
-font-family: 'Yu Gothic','MSP ゴシック' !important;
-}
-
-#baseMenu {
-  position: absolute !important;
-right: 10px!important;
-top: 15px!important;
-z-index: 99!important;
-}
-
-#baseMenu ul {
-    display: table;
-  border:none !important;
-  
-}
-
-ul, ol {
-    margin: 0　!important;
-    padding: 0　!important;
-}
-
-
-
-.container #header {
-    width: 100% !important;
-    height: 17px !important;
-    margin: 0 auto !important;
-    padding: 31.5px 0 !important;
-    text-align: center !important;
-    border-bottom:dotted 1px #000000 !important;
-}
-
-.container {
-    text-align: center !important;
-  font-size:15px !important;
+.main #about {
+width: 610px;
+margin: 0 auto;
+font-size:15px !important;
 letter-spacing:1px !important;
 font-family: 'Yu Gothic','MSP ゴシック' !important;
 color: #000000 !important;
+text-align: left;
+padding: 22px 0;
+line-height:25px;
+}
+
+.main {
+width: 645px;
+height: auto;
+background: #FFFFFF !important;
+line-height:25px;
+}
+
+html {
+font-family: 'Yu Gothic','MSP ゴシック';
+font-size:15px;
+letter-spacing:1px;
+}
+body {
+margin: 0;
+font-family: 'Yu Gothic','MSP ゴシック';
+font-size:15px;
+color:;
+line-height:25px;
+letter-spacing:1px;
+}
+
+a:link {color:#000000; text-decoration: none;} 
+a:visited {color:#000000; text-decoration: none;}
+a:hover {color:#000000; text-decoration: underline;} 
+a:active {color:#000000; text-decoration: none;} 
+
+table {
+ width: 100%;
+}
+
+td, th {
+padding-top: 5px;
+padding-bottom: 5px;
+border-bottom: dotted 1px #777777;
+border-collapse: separate;
+}
+
+.about_left
+ {
+padding-left: 0px;
+font-weight:bold;
+width: 25%;
+position: relative;
+
+}
+
+.about_right
+{
+  width: 75%;
+  position: relative;
+}
+
+/*====================================================================
+ Element
+====================================================================*/
+/**
+ * name: #gb
+ * source: shopTemplate/base_menu
+ *************************************/
+#baseMenu{
+	box-sizing: border-box;
+	right: 25px;
+	position: fixed;
+	top: 5px;
+	z-index: 2002;
+}
+#baseMenu > ul > li{
+	float: left;
+	list-style: none;
+}
+#baseMenu > ul > li.base{
+	margin: 0 10px 0 0;
+}
+#baseMenu > ul > li a{
+	background-color: #FFF;
+	border-radius: 0px !important;
+	box-shadow:none !important;
+	cursor: pointer;
+	display: block;
+	margin: 1px 0 0;
+	padding: 5px 15px;
+	text-decoration: none;
+}
+#baseMenu > ul > li a:hover{
+	box-shadow: 0px!important;
+	padding: 6px 15px 4px;
+}
   margin-top:50px;
 }
 
