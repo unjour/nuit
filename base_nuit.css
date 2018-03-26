@@ -146,17 +146,19 @@ ITEM SEARCH
 .tempTop #main_navigation {
 		height: 23px;
 		margin-bottom: 70px;
-	font-family: Georgia,Times,Times New Roman,serif !impoetant;
+	font-family: Georgia,Times,Times New Roman,serif !important;
 		font-size: 15px;
-		font-weight:normal !impoetant;
+		font-weight:normal !important;
+	width:100% !important;
+	border-bottom: dotted 1px #777777;
 }
 
 .tempTop #main_navigation li {
 		color: #000;
 		margin: 0 30px;
-		font-family: Georgia,Times,Times New Roman,serif !impoetant;
+		font-family: Georgia,Times,Times New Roman,serif !important;
 		font-size: 15px;
-		font-weight:normal !impoetant;
+		font-weight:normal !important;
 		height: 22px;
 		line-height: 22px;
 		text-transform: capitalize;
@@ -164,18 +166,18 @@ ITEM SEARCH
 }
 
 .tempTop #main_navigation li a {
-	font-family: Georgia,Times,Times New Roman,serif !impoetant;
+	font-family: Georgia,Times,Times New Roman,serif !important;
 		overflow: hidden;
 		max-width: 400px;
 		padding: 0 8px;
 		text-overflow: ellipsis;
 		white-space: nowrap;
 		display: inline-block;
-	font-weight:normal !impoetant;
+	font-weight:normal !important;
 }
 
 .tempTop #main_navigation li #category-menu span {
-		font-weight:normal !impoetant;
+		font-weight:normal !important;
 }
 
 .template #category-menu:hover .category-list {
@@ -198,7 +200,7 @@ letter-spacing:1px;
 }
 body {
 margin: 0;
-font-family: 'Yu Gothic','MSP ゴシック';
+font-family: 'Yu Gothic','MSP ゴシック' !important;
 font-size:15px;
 color:;
 line-height:25px;
