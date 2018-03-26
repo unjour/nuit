@@ -78,14 +78,27 @@ ITEM SEARCH
 ====================================================================*/
 
 .theme--0 .itemSearch__form {
-	background-color:#fff;
-	border:1px solid #ccc;
-	border-radius:2px;
-	display:inline-block;
-	padding:0 30px 0 0;
-	position:relative;
-	height:28px;
 	width:200px !important!;
+}
+
+.theme--0 input[type=text].itemSearch__field {
+	width:200px !important!;
+	
+}
+
+.theme--1 .menu li.itemSearch {
+	width:200px !important!;
+}
+
+.theme--2 .searchFormContainer {
+	background-color:#333;
+	display:none;
+	padding:0;
+	position:absolute;
+	left:-80px;
+	top:38px;
+	width:200px !important!;
+	z-index:9999
 }
 
 /*====================================================================
