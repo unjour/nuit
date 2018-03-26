@@ -78,16 +78,16 @@ ITEM SEARCH
 ====================================================================*/
 
 .theme--0 .itemSearch__form {
-	width:200px !important!;
+	width:200px !important;
 }
 
 .theme--0 input[type=text].itemSearch__field {
-	width:200px !important!;
+	width:200px !important;
 	
 }
 
 .theme--1 .menu li.itemSearch {
-	width:200px !important!;
+	width:200px !important;
 }
 
 .theme--2 .searchFormContainer {
@@ -97,7 +97,7 @@ ITEM SEARCH
 	position:absolute;
 	left:-80px;
 	top:38px;
-	width:200px !important!;
+	width:200px !important;
 	z-index:9999;
 }
 
