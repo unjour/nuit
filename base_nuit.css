@@ -164,12 +164,14 @@ ITEM SEARCH
 }
 
 .tempTop #main_navigation li a {
+	font-family: Georgia,Times,Times New Roman,serif !impoetant;
 		overflow: hidden;
 		max-width: 400px;
 		padding: 0 8px;
 		text-overflow: ellipsis;
 		white-space: nowrap;
 		display: inline-block;
+	font-weight:normal !impoetant;
 }
 
 .tempTop #main_navigation li #category-menu span {
@@ -187,26 +189,6 @@ ITEM SEARCH
 	font-family: Georgia,Times,Times New Roman,serif !important;
 	font-style: italic !important;
 	font-weight:normal !impoetant;
-}
-
-
-.main #about {
-width: 610px;
-margin: 0 auto;
-font-size:15px !important;
-letter-spacing:1px !important;
-font-family: 'Yu Gothic','MSP ゴシック' !important;
-color: #000000 !important;
-text-align: left;
-padding: 22px 0;
-line-height:25px;
-}
-
-.main {
-width: 645px;
-height: auto;
-background: #FFFFFF !important;
-line-height:25px;
 }
 
 html {
