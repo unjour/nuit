@@ -150,7 +150,7 @@ ITEM SEARCH
 		font-size: 15px;
 		font-weight:normal !important;
 	width:100% !important;
-	border-bottom: dotted 1px #777777;
+	border-bottom: dotted 1px #777777 !important;
 }
 
 .tempTop #main_navigation li {
@@ -193,15 +193,52 @@ ITEM SEARCH
 	font-weight:normal !impoetant;
 }
 
+.template #category-menu .appsItemCategoryTag_child .appsItemCategoryTag_lowerchild {
+		display: none;
+		position: absolute;
+		top: -10px;
+		left: 98%;
+		z-index: -1;
+}
+
+.template #category-menu .appsItemCategoryTag_lowerchild:hover ,
+.template #category-menu .appsItemCategoryTag_child:hover .appsItemCategoryTag_lowerchild {
+		display: block;
+}
+
 /* .categoryTitle01
 -------------------------------------------------------------- */
 .tempTop .categoryTitle01 {
 	margin: 30px 0 50px;
 	font-size:20px;
 	line-height: 1.1;
+	font-weight: bold;
 	text-align: center;
-	border-bottom: dotted 1px #777777 !important;
 }
+
+
+/* .childCategoryList01
+-------------------------------------------------------------- */
+.childCategoryList01 {
+	font-family: 'Yu Gothic','MSP ゴシック' !important;
+	width: 960px;
+	margin: -32px auto 38px;
+		overflow: hidden;
+		text-align: center;
+		letter-spacing: -.40em;	
+}
+
+.childCategoryList01_child {
+	font-family: 'Yu Gothic','MSP ゴシック' !important;
+	display: inline-block;
+		font-size: 14px;
+		margin: 0 10px;
+		padding: 7px 0;
+		letter-spacing: normal;
+}
+
+.childCategoryList01_link:hover { text-decoration: underline;}
+
 
 /* .tempTop
 -------------------------------------------------------------- */
