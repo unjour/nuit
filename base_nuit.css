@@ -143,12 +143,20 @@ ITEM SEARCH
  BASE MENU NAVI
 ====================================================================*/
 
+.tempTop #main_navigation {
+		height: 23px;
+		margin-bottom: 70px;
+	font-family: Georgia,Times,Times New Roman,serif !impoetant;
+		font-size: 15px;
+		font-weight:normal !impoetant;
+}
+
 .tempTop #main_navigation li {
 		color: #000;
 		margin: 0 30px;
 		font-family: Georgia,Times,Times New Roman,serif !impoetant;
 		font-size: 15px;
-		font-weight: none !impoetant;
+		font-weight:normal !impoetant;
 		height: 22px;
 		line-height: 22px;
 		text-transform: capitalize;
@@ -165,7 +173,7 @@ ITEM SEARCH
 }
 
 .tempTop #main_navigation li #category-menu span {
-		font-weight: none !impoetant;
+		font-weight:normal !impoetant;
 }
 
 .template #category-menu:hover .category-list {
@@ -178,6 +186,7 @@ ITEM SEARCH
 		border-bottom: none !important;
 	font-family: Georgia,Times,Times New Roman,serif !important;
 	font-style: italic !important;
+	font-weight:normal !impoetant;
 }
 
 
